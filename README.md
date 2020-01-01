@@ -27,7 +27,7 @@ to install dependencies, and run a development version of the server with
 >`docker build -t server:1.0.0 .`
 
 #### Start
->`docker run -p 8000:8000 --name chat_server client:1.0.0`
+>`docker run -p 8000:8000 --name chat_server server:1.0.0`
 
 #### Access
 The server will be available on `http://localhost:8000/`.
